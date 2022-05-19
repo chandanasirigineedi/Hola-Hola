@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ride_item_layout"
+    android:background="@drawable/ic_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:text="Start Address : Overland Park, KS"
+        android:textColor="@color/text_color"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/start_address_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Destination Address : Lee'Summit, MI"
+        android:textColor="@color/text_color"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/destination_address_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Seats Available : 5"
+        android:textColor="@color/text_color"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/seats_available_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Seats Occupied : 2"
+        android:textColor="@color/text_color"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/seats_occupied_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Price per Seat : $5"
+        android:textColor="@color/text_color"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/price_per_seats_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Date : 4th July at 5:30pm"
+        android:textColor="@color/text_color"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/date_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Driver : Mounika"
+        android:textColor="@color/text_color"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/driver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="ride id : 54664"
+        android:textColor="@color/text_color"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/ride_id_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

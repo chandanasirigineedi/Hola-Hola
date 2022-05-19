@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_background"
+    tools:context="com.ridemgmtsystem.BookRidesActivity">
+    <ImageView
+        android:id="@+id/preview_image"
+        android:src="@drawable/preview"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+
+    <TextView
+        android:id="@+id/start_address_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Start Address : Overland Park, KS"
+        android:textColor="@color/black" />
+    <TextView
+        android:text="Destination Address : Lee'Summit, MI"
+        android:textColor="@color/text_color"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/destination_address_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Date : 4th July at 5:30pm"
+        android:textColor="@color/text_color"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/date_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seats_list"/>
+</LinearLayout>

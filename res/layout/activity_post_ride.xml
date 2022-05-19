@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ic_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ridemgmtsystem.PostRideActivity">
+    <TextView
+        android:text="CREATE RIDE"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/black"
+        style="@style/HelperTextAppearance"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/start_address"
+            android:hint="Start Address"
+            android:paddingLeft="5dp"
+            android:lines="1"
+            android:linksClickable="false"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/black"
+        style="@style/HelperTextAppearance"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/destination_address"
+            android:hint="Destination Address"
+            android:paddingLeft="5dp"
+            android:lines="1"
+            android:linksClickable="false"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/black"
+        style="@style/HelperTextAppearance"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/seat_count"
+            android:hint="No of Seats"
+            android:paddingLeft="5dp"
+            android:lines="1"
+            android:linksClickable="false"
+            android:maxLines="1"
+            android:inputType = "number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/black"
+        style="@style/HelperTextAppearance"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/price_per_seat"
+            android:hint="Price per Seat"
+            android:paddingLeft="5dp"
+            android:lines="1"
+            android:linksClickable="false"
+            android:maxLines="1"
+            android:inputType = "number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/date_button"
+        android:text="select date and time"
+        android:textAllCaps="false"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/button_text_color"
+        android:backgroundTint="@color/button_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:text="SUBMIT"
+        android:layout_margin="30dp"
+        android:textColor="@color/button_text_color"
+        android:backgroundTint="@color/button_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

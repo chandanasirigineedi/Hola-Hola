@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ic_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ridemgmtsystem.HomeActivity">
+
+    <Button
+        android:id="@+id/post_ride_button"
+        android:layout_width="350dp"
+        android:layout_height="76dp"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/design_default_color_secondary_variant"
+        android:text="Schedule a Ride"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:id="@+id/view_rides_button"
+        android:layout_width="353dp"
+        android:layout_height="77dp"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/design_default_color_secondary_variant"
+        android:text="View Rides"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:id="@+id/my_rides_button"
+        android:layout_width="352dp"
+        android:layout_height="68dp"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/design_default_color_secondary_variant"
+        android:text="My Rides"
+        android:textColor="@color/button_text_color" />
+</LinearLayout>

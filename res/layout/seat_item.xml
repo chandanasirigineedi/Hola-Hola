@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:text="Seat Assigned for : Mounika"
+        android:textColor="@color/text_color"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/seat_assignee_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/book_button"
+        android:text="book"
+        android:layout_marginEnd="30dp"
+        android:layout_gravity="right"
+        android:textColor="@color/button_text_color"
+        android:backgroundTint="@color/button_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+</LinearLayout>
